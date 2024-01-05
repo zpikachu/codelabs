@@ -1,0 +1,58 @@
+* {
+    background: lightblue;
+}
+
+.divmain {
+    background: purple;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    position: relative;
+    left: 140px;
+}
+
+.div2 {
+    background-color: red;
+    height: 30%;
+    width: 30%;
+}
+
+.div3 {
+    background-color: yellow;
+    height: 30%;
+    width: 30%;
+}
+
+.style h1 {
+    background-color: #fff;
+    font-size: medium;
+    font-family: cursive;
+    text-align: center;
+    font-weight: 800;
+    text-decoration: underline dashed cyan;
+    text-transform: uppercase;
+}
+
+.submit {
+    padding: 10px;
+    background-color: lime;
+    border: none;
+    border-radius: 25px;
+    font-weight: 800;
+    color: aliceblue;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.511) inset;
+}
+
+.submit:hover {
+    background-color: gray;
+    color: red;
+    box-shadow: 5px 5px 5px red inset;
+}
